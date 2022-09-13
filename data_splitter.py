@@ -10,7 +10,7 @@ import csv
 
 
 #make sure you are in the same working directory as your file is in
-os.chdir("C:\\Users\\Bruce\\Desktop\\tempStuff")
+os.chdir("file location here")
 
 
 with open("tempValues.csv", mode = 'r', newline = '') as f:
