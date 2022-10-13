@@ -54,6 +54,6 @@ for sub in tagDict.keys():
                     g.writelines( txt + ' ' for txt in row )
                     g.write('\n')
             else:
-                print(sub + ' Tags not found')
-                
+                print(sub + ' not found')
+                break ##go to the next item in list of dict keys
        
